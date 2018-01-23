@@ -92,3 +92,19 @@ li > span.open.array::before {
 .opacity {
     opacity: 0.6;
 }
+
+body{
+	margin: 0;
+	padding: 0;
+}
+canvas {
+	display: block;
+	background-color: #fff;
+}
+.cursor canvas {
+	cursor: pointer;
+}
+.htmlElement,
+svg {
+	display: none;
+}
